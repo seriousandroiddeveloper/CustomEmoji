@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="customEmoji/jquery.customEmoji.js"></script>
+<link rel="stylesheet" type="text/css" href="customEmoji/css/jquery.customEmoji.css" />
+
+</head>
+<body>
+<div contenteditable="true" class ="emojitextArea customEmoji" >afs<img src="a.png"/>df</div>
+<div contenteditable="true" class ="emojitextArea" >afs<img src="a.png"/>df</div>
+</body>
+<script type="text/javascript">
+
+$(".emojitextArea").customEmoji({basepathEmojiImg : "customEmoji/emojiImg/"});
+
+</script>
+</html>
